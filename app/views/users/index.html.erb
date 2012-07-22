@@ -1,0 +1,13 @@
+<h1>All Users</h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+		<% @users.each do |user| %>
+				<%#= render @users //instead of all this each calling%>
+				<%= render 'user', :user => user %>
+				<%#= render user //other style, more railsy %>
+		<% end %>
+</ul>
+
+<%= will_paginate %>
