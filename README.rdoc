@@ -2,4 +2,4 @@
 
 This is the Sample App from Michael Hartl's Rails tutorial book
 which is upgraded to newer version of rails -> 3.2:
-       Because of lots of changed since previous version of this app I put it in new repository.
+       Because of lots of changes since previous version of this app I put it in new repository.
